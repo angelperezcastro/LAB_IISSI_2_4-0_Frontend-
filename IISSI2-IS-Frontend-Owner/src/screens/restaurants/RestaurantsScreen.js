@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
 import { Button, Text, View } from 'react-native'
+import SystemInfo from '../../components/SystemInfo'
 
 export default function RestaurantsScreen ({ navigation }) {
   return (
@@ -12,6 +13,9 @@ export default function RestaurantsScreen ({ navigation }) {
         }}
         title="Go to Random Restaurant Details"
       />
+      <View style={{ position: 'absolute', bottom: 20, left: 20 }}>
+        <SystemInfo />
+      </View>
     </View>
   )
 }

@@ -6,6 +6,9 @@ import ProfileScreen from './src/screens/profile/ProfileScreen'
 import RestaurantsScreen from './src/screens/restaurants/RestaurantsScreen'
 import RestaurantsStack from './src/screens/restaurants/RestaurantsStack'
 
+import SystemInfo from './src/components/SystemInfo'
+
+
 const Tab = createBottomTabNavigator()
 
 export default function App () {

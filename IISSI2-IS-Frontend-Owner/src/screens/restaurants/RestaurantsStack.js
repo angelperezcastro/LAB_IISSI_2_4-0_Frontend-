@@ -3,6 +3,8 @@ import React from 'react'
 import RestaurantDetailScreen from './RestaurantDetailScreen'
 import RestaurantsScreen from './RestaurantsScreen'
 
+
+
 const Stack = createNativeStackNavigator()
 
 export default function RestaurantsStack () {
